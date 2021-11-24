@@ -1,0 +1,109 @@
+body {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.container {
+    width: 1300px;
+    margin: auto auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+	  color: #8B0000;
+    text-align: left;
+}
+
+#header .left {
+	float: left;
+	width: 270px;
+}
+#header .center {
+	float: right;
+	width: 500px;
+	padding-top: 30px;
+    padding-bottom: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/**/
+nav{
+  background-color: #CD3333;
+  clear: both;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+nav li{
+  display:inline-block;
+  width: 200px;
+  text-align: center;
+}
+nav li a{
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  padding:14px 16px;/*cao rong cua o thanh menu*/
+}
+.search{
+  position:relative;
+  display:inline-block;
+  color:white;
+  padding:14px 16px;
+  float:right;
+}
+.search-bar{
+  position:absolute;
+  display:none;
+  right:0;
+  top:45px;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    outline:none;
+    padding: 12px 14px;
+    transition: width 0.4s ease-in-out;
+}
+nav li:hover{
+  background-color: #8B2323;
+}
+.search:hover{
+  background-color: #990000;
+}
+.search:hover .search-bar{
+  display:block;
+}
+form input[type="text"]:focus{
+  width:300px;
+  background-color: white;
+}
+
+/*content*/
+#main-content {
+  max-width: 600px;
+}
+.item p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+
+
+#footer {
+    position: relative;
+    height: 40px;
+    background-color: grey;
+}
